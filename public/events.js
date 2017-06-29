@@ -27,7 +27,7 @@ function myFunc(i)
 document.addEventListener("DOMContentLoaded", function() {
   document.getElementById("button").addEventListener("click", function()
 	{
-		for (count = 1; count < 100; count++) { 
+		for (count = 1; count < 200; count++) { 
     // console.log(myFunc(count))
     document.writeln(myFunc(count));
     document.write("<br>");
