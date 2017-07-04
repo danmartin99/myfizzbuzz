@@ -10,18 +10,7 @@ function myFunc(i)
     else
         return(i);
 }
-//
-// $(document).ready(function() {
-//   $('#button').on('click',function(){
-//     alert('clicked');
-//   });
-// });
 
-  // document.addEventListener("DOMContentLoaded", function() {
-  //   document.getElementById('button').addEventListener("click", function(){
-  //      alert("yay!, got it working");
-  //   })
-  // })
 
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -31,20 +20,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // console.log(myFunc(count))
     document.writeln(myFunc(count));
     document.write("<br>");
-}
-		
-		// alert('Yah! Got it working');
+    }
 	})
 })
 
-// $ (document).ready(function() {
-//   var number = 1;
-//   $('#button').on('click', function() {
-//     number++;
-//     alert(number);
-//   });
-//   $('button').off('click');
-// });
-
-
-// http://javascriptissexy.com/understand-javascript-closuers-with-ease
